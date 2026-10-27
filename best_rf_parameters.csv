@@ -1,0 +1,2 @@
+max_depth,max_features,min_samples_leaf,min_samples_split,n_estimators,CV_Accuracy
+,sqrt,2,5,200,0.8818181818181818
