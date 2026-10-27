@@ -1,35 +1,35 @@
 # Python virtual environment
-
 .venv/
 venv/
 env/
 
 # Python cache
-
-**pycache**/
+__pycache__/
 *.py[cod]
 
 # Environment variables and secrets
-
 .env
 .env.*
 !.env.example
 .streamlit/secrets.toml
 
 # Editor and operating system files
-
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
 # Test and coverage cache
-
 .pytest_cache/
 .coverage
 htmlcov/
 
-# Temporary files
+# Node.js and Next.js build
+node_modules/
+.next/
+out/
 
+# Temporary and scratch files
+scratch/
 *.tmp
 *.log
